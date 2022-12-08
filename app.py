@@ -14,7 +14,7 @@ app.config["SESSION_TYPE"] = "filesystem"
 DATA_DIRECTORIES=[]
 Session(app)
 
-# create database for users login details Pycharm/100_days_of_coding/CS50/Netflix/users.db
+# create database for users login details  
 db = sqlite3.connect('users.db', check_same_thread=False)
 cursor = db.cursor()
 print("Database created and Successfully Connected to SQLite")
@@ -144,7 +144,7 @@ def upload():
 # def account_details():
 # 	"""Get account details displayed"""
 # 	if request.method == "GET":
-# 		df = pd.read_csv("/Users/alexghibea/Documents/Pycharm/100_days_of_coding/CS50/Netflix/Data/Alex/AccountDetails.csv")
+# 		df = pd.read_csv(" ")
 # 		df["Customer Creation Timestamp"] = df["Customer Creation Timestamp"].astype("datetime64")
 # 		new_df = df[["First Name", "Last Name","Country Of Registration","Membership Status","Customer Creation Timestamp"]].copy()
 # 		return render_template("account.html",tables=[new_df.to_html(classes="data",header=True)])
@@ -153,7 +153,7 @@ def upload():
 # def billing_details():
 # 	"""Get Billing Details"""
 # 	if request.method =="GET":
-# 		df = pd.read_csv("/Users/alexghibea/Documents/Pycharm/100_days_of_coding/CS50/Netflix/Data/Alex/BillingHistory.csv")
+# 		df = pd.read_csv(" ")
 # 		df.plot()
 # 		# plt.show()
 # 		return render_template("billings.html",tables=[plt.show()])
