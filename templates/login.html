@@ -1,0 +1,23 @@
+{% extends "home.html" %}
+
+{% block title %}
+Log In
+{% endblock %}
+
+{% block main %}
+<script>function validate(input) {
+        if (/^\s/.test(input.value))
+            input.value = '';
+    }</script>
+<form action="/login" method="post">
+    <div class="mb-3">
+        <input autocomplete="off" autofocus class="form-control mx-auto w-auto" oninput="validate(this)"
+            required="required" id="username" name="username" placeholder="Username" type="text">
+    </div>
+    <div class="mb-3">
+        <input class="form-control mx-auto w-auto" id="password" name="password" oninput="validate(this)"
+            required="required" placeholder="Password" type="password">
+    </div>
+    <button class="btn btn-primary" type="submit">Log In</button>
+</form>
+{% endblock %}
