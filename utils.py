@@ -43,12 +43,4 @@ def login_required(f):
 	return decorated_function
 
 
-# df = pd.read_csv("Pycharm/100_days_of_coding/CS50/Netflix/Data_to_use/AccountDetails.csv")
-# df["Customer Creation Timestamp"] = df["Customer Creation Timestamp"].astype("datetime64")
-# new_df = df[["First Name", "Last Name","Country Of Registration","Membership Status","Customer Creation Timestamp"]].copy()
-# print(new_df)
-
-
-# df = pd.read_csv("/Users/alexghibea/Documents/Pycharm/100_days_of_coding/CS50/Netflix/Data/Alex/BillingHistory.csv")
-# df.plot()
-# plt.show()
+ 
