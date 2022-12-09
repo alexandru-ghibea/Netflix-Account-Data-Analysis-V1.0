@@ -1,5 +1,5 @@
 # V1.0 Netflix Account Data Analysis
 ## Analyze Your Personal Netflix Data 
-## Account Creation
-## Data Upload
+## Account Creation --> DONE
+## Data Upload 
 ## Data Analytics
